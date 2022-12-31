@@ -7,7 +7,7 @@ const network = NETWORK.sol;
 // General metadata for Ethereum
 const namePrefix = "Ta Gatakia Voucher";
 const description = "A voucher for a free mint in the $ETH Ta Gatakia collection";
-const baseUri = "ipfs://NewUriToReplace";
+const baseUri = "https://tagatakia.com/assets/images/voucher.png";
 
 const solanaMetadata = {
   symbol: "TGK",
@@ -24,9 +24,14 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 177,
+    growEditionSizeTo: 220,
     layersOrder: [
-      { name: "Text" },
+      {
+        name: "Text",
+        options: {
+          bypassDNA: true
+        }
+      },
     ],
   },
 ];
@@ -66,7 +71,7 @@ const pixelFormat = {
 };
 
 const background = {
-  generate: true,
+  generate: false,
   brightness: "80%",
   static: false,
   default: "#000000",
@@ -78,7 +83,7 @@ const extraMetadata = {
 
 const rarityDelimiter = "#";
 
-const uniqueDnaTorrance = 0;
+const uniqueDnaTorrance = 1;
 
 const preview = {
   thumbPerRow: 5,
