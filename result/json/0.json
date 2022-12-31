@@ -1,0 +1,31 @@
+{
+  "name": "Ta Gatakia Voucher #0",
+  "symbol": "TGK",
+  "description": "A voucher for a free mint in the $ETH Ta Gatakia collection",
+  "seller_fee_basis_points": 1000,
+  "image": "0.png",
+  "external_url": "https://tagatakia.com",
+  "edition": 0,
+  "creator": "Cats of Cyprus",
+  "attributes": [
+    {
+      "trait_type": "Text",
+      "value": "voucher"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "0.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "EArh9eNuddAtosQzDNE56iEYChCet6b12tPfGcBvN85y",
+        "share": 100
+      }
+    ]
+  }
+}
